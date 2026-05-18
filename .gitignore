@@ -1,0 +1,18 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de datos personales
+libros.csv
+db.json
+
+# Carpetas de contenidos personales
+# (El script nuevo-libro.js las creará automáticamente para el usuario final)
+resumenes/
+guias/
+cronologias/
+ejercicios/
+mapas/
+audios/
+
+# Archivos temporales del sistema
+.DS_Store

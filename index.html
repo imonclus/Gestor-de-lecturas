@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoy hemos leído:</title>
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlace a Font Awesome para los iconos (opcional pero recomendado) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hoy hemos leído:</h1>
+    </header>
+
+    <div class="container">
+    <nav id="sidebar">
+        <h2>Lecturas</h2>
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-bar" placeholder="Buscar libro..." class="search-input">
+        </div>
+        <ul id="book-list">
+            </ul>
+        <p id="no-results-msg" class="no-results">No se encontraron libros.</p>
+    </nav>
+
+    <main id="main-content">
+        <div id="welcome-message">
+            <h2><i class="fas fa-book-reader"></i> Bienvenido</h2>
+            <p>Selecciona una lectura de la lista para ver su contenido.</p>
+        </div>
+        </main>
+</div>
+
+    <footer>
+        <p>&copy; 2023 - Tu Proyecto de Lectura</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript, siempre al final del body -->
+    <script src="script.js"></script>
+
+</body>
+</html>
